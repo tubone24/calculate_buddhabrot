@@ -49,9 +49,9 @@ where:
 ### Channel-Specific Parameters
 
 Each color channel uses different maximum iteration counts:
-- Red: $K_R = 100$ (short trajectories)
-- Green: $K_G = 1000$ (medium trajectories)
-- Blue: $K_B = 10000$ (long trajectories)
+- Red: $K_R = 1000$ (short trajectories)
+- Green: $K_G = 10000$ (medium trajectories)
+- Blue: $K_B = 100000$ (long trajectories)
 
 The final image intensity $I(x,y)$ at each point is composed as:
 
