@@ -2,6 +2,8 @@
 
 A high-performance Python implementation of the Buddhabrot fractal rendering algorithm using Numba JIT compilation.
 
+![buddhabrot.png](buddhabrot.png)
+
 ## Overview
 
 The Buddhabrot is a variation of the Mandelbrot set, created by plotting the trajectories of points that escape the set. This implementation provides an efficient method to generate high-resolution Buddhabrot images.
