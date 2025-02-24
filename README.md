@@ -2,7 +2,7 @@
 
 A high-performance Python implementation of the Buddhabrot fractal rendering algorithm using Numba JIT compilation.
 
-![buddhabrot.png](buddhabrot.png)
+![buddhabrot.png](./docs/images/buddhabrot.png)
 
 ## Overview
 
@@ -57,7 +57,7 @@ The algorithm samples points in the complex plane:
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/buddhabrot-generator.git
+git@github.com:tubone24/calculate_buddhabrot.git
 cd buddhabrot-generator
 ```
 
