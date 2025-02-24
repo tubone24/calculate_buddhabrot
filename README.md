@@ -2,7 +2,7 @@
 
 A high-performance Python implementation of the Buddhabrot fractal rendering algorithm using Numba JIT compilation.
 
-![ne.png](docs/images/img.png)
+![ne.png](docs/images/img_1.png)
 
 ## Overview
 
@@ -49,9 +49,9 @@ where:
 ### Channel-Specific Parameters
 
 Each color channel uses different maximum iteration counts:
-- Red: $K_R = 1000$ (short trajectories)
-- Green: $K_G = 10000$ (medium trajectories)
-- Blue: $K_B = 100000$ (long trajectories)
+- Red: $K_R = 100000$ (short trajectories)
+- Green: $K_G = 10000000$ (medium trajectories)
+- Blue: $K_B = 10000000$ (long trajectories)
 
 The final image intensity $I(x,y)$ at each point is composed as:
 
@@ -135,7 +135,7 @@ The program generates a high-resolution image file named 'nebulabrot.png' in the
 ## Performance
 
 Calculation time varies depending on your hardware specifications and the chosen parameters. On a modern CPU, expect computation times of:
-- ~500 seconds with default settings
+- ~1500 seconds with default settings
 - Longer for higher SAMPLES or MAX_ITER values
 
 ## Contributing
