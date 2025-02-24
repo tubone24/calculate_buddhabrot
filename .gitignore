@@ -171,3 +171,5 @@ cython_debug/
 .pypirc
 
 buddhabrot.png
+
+.DS_Store
