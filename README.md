@@ -97,7 +97,7 @@ This creates a nebula-like appearance, hence the name "Nebulabrot."
 
 ```bash
 git@github.com:tubone24/calculate_buddhabrot.git
-cd buddhabrot-generator
+cd calculate_buddhabrot
 ```
 
 2. Install required packages:
